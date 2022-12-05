@@ -1,0 +1,82 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-right: 18%;
+    justify-content: end;
+    margin-top: -105px;
+    font-size: large;
+   
+}
+.title ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px 15px;
+    position: relative;
+ 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+h1 span{
+    font-size: 2rem;
+    font-family: "Gill Sans Extrabold", sans-serif;
+ 
+}
+
+nav ul ul{
+    
+    position: absolute;
+    top: 60px;
+    left: -30px;
+    display: none;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 195px;
+    text-decoration: none;
+}
+nav ul li:hover>ul{
+    display:block;
+    width: 200px;
+    display: grid;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  
+}
+nav ul li ul :hover{
+    text-decoration:underline;
+    transition: all 0.5 ease;
+    cursor: pointer;
+
+}
+nav ul ul  li:hover{
+    display: flex;
+    cursor: pointer;
+    text-decoration: underline;
+}
+nav ul ul ul li:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.icon i{
+    padding: 20px;
+}
+sup{
+    border-style:ridge;
+    border-color: red;
+    border-image-repeat: round;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+nav ul.home:hover{
+    text-decoration: underline;
+}
