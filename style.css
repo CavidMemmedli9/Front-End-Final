@@ -114,6 +114,7 @@ color: red;
 cursor: pointer;
 }
 #second-part nav li ul {
+   color: gray;
     text-decoration: none;
     list-style-type: none;
     display: none;
@@ -121,55 +122,84 @@ cursor: pointer;
 #second-part nav li #ul {
     position: absolute;
     margin-left: 10px;
-    margin-top: -140px;
+    margin-top: 5px;
+    color: gray;
 }
 #second-part nav li ul{
-    margin-left: -210px;
+    margin-left: -200px;
 }
-#second-part nav li ul:hover li{
+#second-part nav li:hover>ul{
     display: block;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
 }
 #second-part.images{
     display: row;
 }
-#second-part div.image1:hover{
+#second-part div.image1:hover img{
    transform: scale(1.1);
    z-index: 1;
     cursor: pointer;
 }
-#second-part div.image2:hover{
+#second-part div.image2:hover img{
     transform: scale(1.1);
     z-index: 1;
      cursor: pointer;
  }
- #second-part div.image3:hover{
+ #second-part div.image3:hover img{
     transform: scale(1.1);
     z-index: 1;
      cursor: pointer;
  }
- #second-part div.image4:hover{
+ #second-part div.image4:hover img{
     transform: scale(1.1);
     z-index: 1;
      cursor: pointer;
 
  }
- #second-part div.image5:hover{
+ #second-part div.image5:hover img{
     transform: scale(1.1);
     z-index: 1;
      cursor: pointer;
  }
- #second-part div.image6:hover{
+ #second-part div.image6:hover img{
     transform: scale(1.1);
     z-index: 1;
      cursor: pointer;
  }
- #second-part div.image7:hover{
+ #second-part div.image7:hover img{
     transform: scale(1.1);
     z-index: 1;
      cursor: pointer;
  }
- #second-part div.image8:hover{
+ #second-part div.image8:hover img{
     transform: scale(1.1);
     z-index: 1;
      cursor: pointer;
+ }
+ #third-part div.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    width: 100%;
+    height: 700px;
+    margin-top: 160px;
+ }
+ #third-part div.video{
+    
+    margin-left: 150px;
+ }
+ #third-part div.video:hover iframe {
+   transform: scale(1.1);
+ }
+ #third-part div.title{
+   margin-left: 800px;
+   margin-top: -340px;
  }
