@@ -1,3 +1,8 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 nav{
     display: flex;
     align-items: center;
@@ -35,7 +40,7 @@ nav ul ul{
     position: absolute;
     top: 60px;
     left: -30px;
-    display: none;
+    visibility: hidden;
 }
 nav ul ul ul li{
     position: relative;
@@ -44,27 +49,32 @@ nav ul ul ul li{
     text-decoration: none;
 }
 nav ul li:hover>ul{
-    display:block;
+    visibility:visible;
     width: 200px;
     display: grid;
-
+z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-  
+  background-color: white
 }
 nav ul li ul :hover{
     text-decoration:underline;
     transition: all 0.5 ease;
     cursor: pointer;
-
+    box-shadow: none;
+    z-index: 1;
+    background-color: white
 }
 nav ul ul  li:hover{
     display: flex;
     cursor: pointer;
     text-decoration: underline;
+    box-shadow: none
 }
 nav ul ul ul li:hover{
     text-decoration:underline;
     cursor: pointer;
+    
+   
 }
 .icon i{
     padding: 20px;
@@ -76,7 +86,25 @@ sup{
 }
 nav ul li:hover{
     text-decoration: underline;
+
 }
 nav ul.home:hover{
     text-decoration: underline;
+}
+.imgDiv{
+    width: 1590px;
+    height: 600px;
+}
+#shop3:hover .shop2 ul{
+display: block;
+    z-index: 1;
+    background-color: white;
+    padding: 10px;
+    width: 800px;
+    height: 400px;
+
+}
+
+#shop3:hover>.shop2 ul{
+    visibility: visible
 }
