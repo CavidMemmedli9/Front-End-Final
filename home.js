@@ -21,6 +21,7 @@ $(function() {
         overlay:"overlays/01.png",
         animation:"kenburnsUp"
     })
-
+ 
+  
 });
 
