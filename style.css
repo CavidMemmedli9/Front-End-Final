@@ -1,95 +1,112 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-left: 15%;
-    padding-right: 18%;
-    justify-content: end;
-    margin-top: -105px;
-    font-size: large;
-   
-}
-.title ul li{
-    display: inline-block;
-    list-style-type: none;
-    padding: 15px 15px;
-    position: relative;
- 
-}
 
-nav ul li a{
-    text-decoration: none;
+.headernav {
+    margin-top: -58px;
+    padding-bottom: 35px;
+    padding-right: 35px
+}
+.headernav a{
     color: black;
-    
-    
-}
-h1 span{
-    font-size: 2rem;
-    font-family: "Gill Sans Extrabold", sans-serif;
- 
-}
-
-nav ul ul{
-    
-    position: absolute;
-    top: 60px;
-    left: -30px;
-    visibility: hidden;
-}
-nav ul ul ul li{
-    position: relative;
-    top: -60px;
-    left: 195px;
     text-decoration: none;
-}
-nav ul li:hover>ul{
-    visibility:visible;
-    width: 200px;
-    display: grid;
-z-index: 1;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-  background-color: white
-}
-nav ul li ul :hover{
-    text-decoration:underline;
-    transition: all 0.5 ease;
-    cursor: pointer;
-    box-shadow: none;
-    z-index: 1;
-    background-color: white
-}
-nav ul ul  li:hover{
-    display: flex;
-    cursor: pointer;
-    text-decoration: underline;
-    box-shadow: none
-}
-nav ul ul ul li:hover{
-    text-decoration:underline;
-    cursor: pointer;
-    
    
 }
-.icon i{
+.headernav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.iconimg img {
+    width: 212px;
+    margin-left: 47px;
+    margin-top: -7px;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.menu>ul>li>a {
     padding: 20px;
 }
-sup{
-    border-style:ridge;
-    border-color: red;
-    border-image-repeat: round;
-}
-nav ul li:hover{
-    text-decoration: underline;
 
+.lists {
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
 }
-nav ul.home:hover{
-    text-decoration: underline;
+
+.lists>li {
+    position: relative;
+}
+
+.fa-angle-right {
+    display: inline-block;
+}
+
+.lists>li>ul {
+    width: 200px;
+    position: absolute;
+    left: 15%;
+    top: 22px;
+    padding-top: 48px;
+    z-index: 10;
+    background-color: white;
+    display: none;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.lists>li:hover>ul {
+    display: block;
+}
+
+.lists>li>ul>li {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.lists>li>ul>li>i {
+    padding-left: 20px;
+}
+
+.lists>li>ul>li>a {
+    display: inline-block;
+}
+
+.lists>li>ul>li>ul {
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    left: 100%;
+    top: 20%;
+    display: none;
+    padding-left: 15px;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.lists>li>ul>li>ul>li {
+    padding: 10px 15px;
+}
+
+.lists>li>ul>li:hover>ul {
+    display: block;
+}
+
+.lists li {
+    list-style-type: none;
+}
+
+.fa-search{
+    font-size: 20px;
+}
+
+.fa-shopping-bag{
+    font-size: 20px;
 }
 .imgDiv{
     width: 1590px;
@@ -115,31 +132,32 @@ color: red;
 cursor: pointer;
 }
 #second-part nav li ul {
-   color: gray;
-    text-decoration: none;
-    list-style-type: none;
-    display: none;
-}
-#second-part nav li #ul {
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 5px;
     color: gray;
-}
-#second-part nav li ul{
-    margin-left: -200px;
-}
-#second-part nav li:hover>ul{
-    display: block;
-    z-index: 1;
-    position: absolute;
-    background-color: white;
-    width: 300px;
-    height: 200px;
-    padding-top: 10px;
-    padding-left: 10px;
-    cursor: pointer;
-}
+     text-decoration: none;
+     list-style-type: none;
+     display: none;
+ }
+ #second-part nav li #ul {
+     position: absolute;
+     margin-left: 10px;
+     margin-top: 5px;
+     color: gray;
+ }
+ #second-part nav li ul{
+     margin-left: -200px;
+ }
+ #second-part nav li:hover>ul{
+     display: block;
+     z-index: 1;
+     position: absolute;
+     background-color: white;
+     width: 300px;
+     height: 200px;
+     padding-top: 10px;
+     padding-left: 10px;
+     cursor: pointer;
+ }
+ 
 
 #second-part.images{
     display: row;
@@ -235,6 +253,10 @@ justify-content: space-evenly;
     transform: scale(1.1);
     cursor: pointer;
 }
+.image4 img:hover  {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .footer{
     background-color: papayawhip;
    
@@ -243,7 +265,7 @@ margin-top: 200px;
     display: flex;
     justify-content: space-evenly
 }
-.footer div ul li :hover {
-    color: red;
-    cursor: pointer;
+.foot:hover {
+    color: red ;
+    cursor: pointer ;
 }
