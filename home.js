@@ -1,3 +1,4 @@
+ 
 $(function() {
     $(".imgDiv").vegas({
         delay:4000,
@@ -9,9 +10,7 @@ $(function() {
         overlay:"overlays/01.png",
         animation:"kenburnsUp"
     })
-});
 
-$(function() {
     $(".word").vegas({
         delay:4000,
         slides:[
@@ -22,4 +21,6 @@ $(function() {
         overlay:"overlays/01.png",
         animation:"kenburnsUp"
     })
+
 });
+
