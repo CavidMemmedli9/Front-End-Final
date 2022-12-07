@@ -235,3 +235,15 @@ justify-content: space-evenly;
     transform: scale(1.1);
     cursor: pointer;
 }
+.footer{
+    background-color: papayawhip;
+   
+    height: 400px;
+margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly
+}
+.footer div ul li :hover {
+    color: red;
+    cursor: pointer;
+}
