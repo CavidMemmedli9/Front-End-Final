@@ -11,7 +11,7 @@ $(function() {
         animation:"kenburnsUp"
     })
 
-   
+
  
     $('.footerSlider').owlCarousel({
         loop:true,
