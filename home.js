@@ -11,17 +11,25 @@ $(function() {
         animation:"kenburnsUp"
     })
 
-    $(".word").vegas({
-        delay:4000,
-        slides:[
-            {src:"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-4-img.jpg"},
-            {src:"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/port-img-1-845x650.jpg"},
-            {src:"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-13-img.jpg"}
-         ],
-        overlay:"overlays/01.png",
-        animation:"kenburnsUp"
-    })
+   
  
-  
+    $('.footerSlider').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
 });
+
+
 

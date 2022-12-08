@@ -162,51 +162,32 @@ cursor: pointer;
      cursor: pointer;
  }
  
+ #second-part .images .image1 {
+     overflow: hidden;
+ }
+
+ #second-part .images2 .image1 {
+    overflow: hidden;
+}
 
 #second-part.images{
+    overflow: hidden;
     display: row;
 }
-#second-part div.image1:hover img{
+#second-part img:hover{
    transform: scale(1.1);
    z-index: 1;
     cursor: pointer;
 }
-#second-part div.image2:hover img{
-    transform: scale(1.1);
-    z-index: 1;
+#second-part .images .p1:hover{
+     color: red !important;
      cursor: pointer;
  }
- #second-part div.image3:hover img{
-    transform: scale(1.1);
-    z-index: 1;
-     cursor: pointer;
- }
- #second-part div.image4:hover img{
-    transform: scale(1.1);
-    z-index: 1;
-     cursor: pointer;
+ #second-part .images2 .p1:hover{
+    color: red !important;
+    cursor: pointer;
+}
 
- }
- #second-part div.image5:hover img{
-    transform: scale(1.1);
-    z-index: 1;
-     cursor: pointer;
- }
- #second-part div.image6:hover img{
-    transform: scale(1.1);
-    z-index: 1;
-     cursor: pointer;
- }
- #second-part div.image7:hover img{
-    transform: scale(1.1);
-    z-index: 1;
-     cursor: pointer;
- }
- #second-part div.image8:hover img{
-    transform: scale(1.1);
-    z-index: 1;
-     cursor: pointer;
- }
  #third-part div.container{
     margin: 0;
     padding: 0;
@@ -217,12 +198,13 @@ cursor: pointer;
     margin-top: 160px;
  }
  #third-part div.video{
-    
+    overflow: hidden;
     margin-left: 150px;
  }
- #third-part div.video:hover iframe {
-   transform: scale(1.1);
+ #third-part div.video .img:hover{
+transform: scale(1.05,1.05)
  }
+ 
  #third-part div.title{
    margin-left: 800px;
    margin-top: -340px;
