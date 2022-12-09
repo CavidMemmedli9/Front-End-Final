@@ -125,3 +125,55 @@ ul>li:hover{
     height: 230px;
     background-color: ivory
 }
+.image-over{
+    position: absolute;
+   margin-top: -340px;
+    width: 280px;
+    height: 340px;
+    background-color:  whitesmoke;
+    opacity: 0;
+
+}
+.image-over:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.image-over--blur{
+    backdrop-filter:blur(15px);
+}
+.image-over button:hover{
+    cursor: pointer;
+}
+.owl-theme{
+    overflow: hidden;
+}
+.owl-theme #img1:hover {
+transform: scale(1.1);
+transition: 0.3s ease;
+}
+.image-subtitle #p:hover{
+    cursor: pointer;
+color: red;
+}
+.image img{
+    overflow: hidden;
+}
+.image img:hover{
+cursor: pointer;
+transform: scale(1.1);
+transition: 1s ease;
+}
+.footer{
+    background-color: papayawhip;
+   width: 1590px;
+    height: 400px;
+margin-top: 200px;
+margin-left: -1190px;
+    display: flex;
+    justify-content: space-evenly
+}
+.foot:hover {
+    color: red ;
+    cursor: pointer ;
+}
