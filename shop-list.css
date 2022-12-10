@@ -166,10 +166,10 @@ transition: 1s ease;
 }
 .footer{
     background-color: papayawhip;
-   width: 1590px;
+    width: 1590px;
     height: 400px;
-margin-top: 200px;
-margin-left: -1190px;
+    margin-top: 200px;
+     margin-left: -1190px;
     display: flex;
     justify-content: space-evenly
 }

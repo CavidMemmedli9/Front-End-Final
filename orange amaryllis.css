@@ -125,3 +125,28 @@ ul>li:hover{
     height: 230px;
     background-color: ivory
 }
+ .images #img{
+    overflow: hidden;
+   
+}
+.images #img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+    cursor: pointer;
+}
+.images #p:hover{
+    cursor: pointer;
+    color: red;
+}
+.footer{
+    background-color: papayawhip;
+   
+    height: 400px;
+margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly
+}
+.foot:hover {
+    color: red ;
+    cursor: pointer ;
+}
