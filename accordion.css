@@ -1,0 +1,140 @@
+.headernav {
+    margin-top: -58px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    
+}
+.headernav a{
+    color: black;
+    text-decoration: none;
+   
+}
+.headernav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.iconimg img {
+    width: 212px;
+    margin-left: 47px;
+    margin-top: -7px;
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    
+}
+
+.menu>ul>li>a {
+    padding: 20px;
+}
+
+.lists {
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    
+}
+
+ul>li {
+    cursor: pointer;
+    
+}
+ul>li:hover{
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.lists>li {
+    position: relative;
+}
+
+.fa-angle-right {
+    display: inline-block;
+}
+
+.lists>li>ul {
+    width: 200px;
+    position: absolute;
+    left: 15%;
+    top: 22px;
+    padding-top: 48px;
+    z-index: 10;
+    background-color: white;
+    display: none;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.lists>li:hover>ul {
+    display: block;
+}
+
+.lists>li>ul>li {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.lists>li>ul>li>i {
+    padding-left: 20px;
+}
+
+.lists>li>ul>li>a {
+    display: inline-block;
+}
+
+.lists>li>ul>li>ul {
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    left: 100%;
+    top: 20%;
+    display: none;
+    padding-left: 15px;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.lists>li>ul>li>ul>li {
+    padding: 10px 15px;
+}
+
+.lists>li>ul>li:hover>ul {
+    display: block;
+}
+
+.lists li {
+    list-style-type: none;
+}
+
+.fa-search{
+    font-size: 20px;
+}
+
+.fa-shopping-bag{
+    font-size: 20px;
+}
+#shop-list{
+    width: 1590px;
+    height: 230px;
+    background-color: ivory
+}
+.hover:hover{
+    background: red;
+    color: white
+
+}
+.hover:hover .fa-plus{
+    position: absolute;
+    display: none;
+}
+.hover:hover .fa-minus{
+    position: absolute;
+    display: inline-block;
+}

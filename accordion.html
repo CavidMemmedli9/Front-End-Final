@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./shop-list.css">
-        <link rel="stylesheet" href="./owl.carousel.min.css">
-     <link rel="stylesheet" href="./owl.theme.default.min.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./accordion.css">
 </head>
 <body>
         <section id="navbar">
@@ -208,238 +206,60 @@
         
                 </nav>
                 </div>
-            </section>
 
-                    <div id="shop-list">
-
-                    </div>
-                    <p style="font-size:3.5rem;margin-left:130px;margin-top: -140px">Shop List</p>
-
-                   
-                        <div style="margin-top:180px;margin-left:120px;" class="image">
-                                <img style="width: 280px;height:340px"
-                                src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg"
-                                alt="">
-                               
-
-                        <div class="image-over">
-                            <p style="margin-left: 80px;margin-top: 100px;">SCHEFFLERA</p>
-                            <p style="margin-left: 17px;margin-left: 110px">259$</p>
-                            <button style="padding:12px;width:150px;margin-left: 52px;background-color: red;color:white; border-style: none;">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div style="width:50px;height:30px;background-color:coral;color:white;position: absolute;margin-top: -330px;margin-left: 125px;">
-                        <p style="margin-top:-1px">New</p>
-                    </div>
-
-                    
-                    <div style="position: absolute;margin-left:460px;margin-top: -340px;" class="image">
-             <img  style="width: 280px;height:340px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-12-img.jpg" alt="">
-
-             <div class="image-over">
-                <p style="margin-left: 62px;margin-top: 100px;">ORANGE AMARYLLIS</p>
-                <p style="margin-left: 17px;margin-left: 110px">259$</p>
-                <button style="padding:12px;width:150px;margin-left: 52px;background-color: red;color:white; border-style: none;">ADD TO CART</button>
-            </div>
-                    </div>
-                    
-
-                    <div style="position: absolute;margin-left:810px;margin-top: -340px;" class="image">
-                        <img style="width: 280px;height:340px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-10-img.jpg" alt="">
-
-                        <div class="image-over">
-                            <p style="margin-left: 60px;margin-top: 100px;">CACTUS IN ORANGE</p>
-                            <p style="margin-left: 17px;margin-left: 110px">259$</p>
-                            <button style="padding:12px;width:150px;margin-left: 52px;background-color: red;color:white; border-style: none;">READ MORE</button>
-                        </div>
+                <div id="shop-list">
 
                     </div>
-                    <div style="width:50px;height:30px;background-color:black;color:white;position: absolute;margin-top: -330px;margin-left: 820px">
-                        <p style="margin-top:-1px">Sold</p>
-                    </div>
 
-                    <div style="position: absolute;margin-left:1180px;margin-top: -340px;" class="image">
-                        <img style="width: 280px;height:340px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-11-img.jpg" alt="">
+                <p style="font-size:3.5rem;margin-left:130px;margin-top: -140px">Accordions</p>
 
-                        <div class="image-over">
-                            <p style="margin-left: 60px;margin-top: 100px;">PINK FLOWER TREE</p>
-                            <p style="margin-left: 17px;margin-left: 110px">180$-350$</p>
-                            <button style="padding:12px;width:150px;margin-left: 52px;background-color: red;color:white; border-style: none;">SELECT OPTIONS</button>
-                        </div>
+                <section id="second part">
 
+                        <div style="margin-left:100px" class="accordion" id="accordionExample">
+                                <div style="width:600px;margin-top:100px" class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button style="width:600px" class="accordion-button collapsed hover" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapse">
+                                        <a id="a" href=""><i  id="plus" style="color:black" class="fa-solid fa-plus"></i><i  style="color:black; display:none" class="fa-solid fa-minus"></i> </a>
+                                        
+                                      CREATIVE ELEMENTS
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quo ipsa enim illum nihil fugit blanditiis, dolores quia. Veniam iusto tenetur impedit ea unde quia ipsam porro, alias magnam facilis nam dolor maiores amet corporis.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div style="width: 600px" class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button  class="accordion-button collapsed hover" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      ATTENTION TO DETAIL
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, quos enim autem debitis totam expedita rerum dolore fugiat a, dolor molestias. Laboriosam, corrupti deserunt ab debitis iusto aut eius doloremque, ut quia, quos neque enim?</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div style="width:600px" class="accordion-item">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button  class="accordion-button collapsed hover" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                     EASY IMPORT
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tenetur doloremque, voluptatem odit minus cupiditate consequuntur veritatis et vitae suscipit sed explicabo molestiae facilis quidem possimus esse omnis aut veniam! Perspiciatis nostrum esse ullam vitae?</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
 
-
-<section  id="third part">
-  <p style="position: absolute;margin-top:-20px;margin-left: -1050px;">FEATURED ITEMS</p>
-
-    <div style="width: 1400px;margin-top:230px;margin-left:-1070px;padding:15px" class="owl-carousel owl-theme">
-        <div class="item"><img id="img1" style="width: 280px;height:340px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg" alt="">
-            <div style="width:50px;height:30px;background-color:coral;color:white;position: absolute;margin-top: -330px;margin-left: 10px;">
-                <p style="margin-top:-1px">New</p>
-            </div>
-            <div style="margin-top: -80px" class="image-subtitle">
-                <p style="margin-left: 80px;margin-top: 100px;">SCHEFFLERA</p>
-                <p style="margin-left: 110px;margin-top: -8px;">259$</p>
-                <p id="p" style="margin-left: 80px;margin-top: -8px;">Add To Cart</p>
-            </div>
-            
-        </div>
-        
-        <div class="item"><img id="img1" style="width: 280px;height:340px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-12-img.jpg" alt="">
-            <div style="margin-top: -80px" class="image-subtitle">
-                <p style="margin-left: 60px;margin-top: 100px;">ORANGE AMARYLLIS</p>
-                <p style="margin-left: 110px;margin-top: -8px;">259$</p>
-                <p id="p" style="margin-left: 80px;margin-top: -8px;">Add To Cart</p>
-            </div>
-        </div>
-
-        <div class="item"><img id="img1" style="width: 280px;height:340px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-10-img.jpg" alt="">
-            <div style="width:50px;height:30px;background-color:black;color:white;position: absolute;margin-top: -320px;margin-left: 10px">
-                <p style="margin-top:-1px">Sold</p>
-            </div>
-            <div style="margin-top: -80px" class="image-subtitle">
-                <p style="margin-left: 60px;margin-top: 100px;">CACTUS IN ORANGE</p>
-                <p style="margin-left: 110px;margin-top: -8px;">259$</p>
-                <p id="p" style="margin-left: 80px;margin-top: -8px;">READ MORE</p>
-            </div>
-
-        </div>
-
-        <div class="item"><img id="img1" style="width: 280px;height:340px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-11-img.jpg" alt="">
-            <div style="margin-top: -80px" class="image-subtitle">
-                <p style="margin-left: 80px;margin-top: 100px;">WILD ROSES</p>
-                <p style="margin-left: 110px;margin-top: -8px;">259$</p>
-                <p id="p" style="margin-left: 80px;margin-top: -8px;">Buy on Amazon</p>
-            </div>
-        </div>
-        <div class="item"><img id="img1" style="width: 280px;height:340px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/port-img-1-845x650.jpg" alt="">
-            <div style="margin-top: -80px" class="image-subtitle">
-                <p style="margin-left: 80px;margin-top: 100px;">PINK FLOWER TREE</p>
-                <p style="margin-left: 110px;margin-top: -8px;">180$-350$</p>
-                <p id="p" style="margin-left: 100px;margin-top: -8px;">Select Option</p>
-            </div>
-        </div>
-    
-    </div>
-
-</section>
-
-
-<section id="fourth-part">
-<div class="images">
-    <div style="margin-top: 230px;margin-left:-1050px" class="image">
-        <div>
-            <img style="width: 190px;height:180px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/port-img-1-845x650.jpg" alt="">
-            <p style="margin-left: 50px">CACTUSES</p>
-            <p style="color: gray;margin-left: 50px">from 159$</p>
-           </div>
-        
-        <div style="margin-left: 210px;margin-top:-265px">
-            <img style="width: 190px;height:180px;margin-left: 35px;" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-13-img.jpg" alt="">
-            <p  style="margin-left: 100px">EXOTIC</p>
-            <p style="color: gray;margin-left: 90px">from 259$</p>
-        </div>
-
-        <div style="margin-left: 440px;margin-top:-265px">
-            <img style="width: 190px;height:180px;margin-left: 35px;" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/blog-feature-img-4.jpg" alt="">
-<p style="margin-left: 100px">GREENS</p>
-<p style="color: gray;margin-left: 90px" >from 180$</p>
-        </div>
-
-        <div  style="margin-left: 680px;margin-top:-265px">
-            <img  style="width: 190px;height:180px;margin-left: 35px;" src="https://www.quinlanartscenter.org/uploads/9/9/3/4/9934132/editor/img-6779.jpeg?1624640545" alt="">
-        <p style="margin-left: 95px">POPULAR</p>
-        <p style="color: gray;margin-left: 90px">from 159$</p>
-        </div>
-
-        <div style="margin-left: 920px;margin-top:-265px" >
-            <img style="width: 190px;height:180px;margin-left: 35px;" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-11-img.jpg" alt="">
-<p style="margin-left: 100px">VARIOUS</p>
-<p style="color: gray;margin-left: 90px">from 159$</p>
-        </div>
-       
-        <div  style="margin-left: 1170px;margin-top:-265px">
-            <img style="width: 190px;height:180px;margin-left: 35px;" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-10-img.jpg" alt="">
-      <p style="margin-left: 100px">WINTER</p>
-      <p style="color: gray;margin-left: 100px">from 259$</p>
-        </div>
-       
-       
-
-    </div>
-</div>
-
-</section>
-
-<footer>
-    <div class=" footer">
-        <div>
-            <ul style="text-decoration:none;list-style-type:none">
-                <li class="foot">CUSTOMER SERVICE</li>
-                <li class="foot" style="margin-top:13px">Help & Contact Us</li>
-                <li class="foot" style="margin-top:8px">Returns & Refunds</li>
-                <li class="foot" style="margin-top:8px">Online Stores</li>
-                <li class="foot" style="margin-top:8px">Terms & Conditions</li>
-            </ul>
-        </div>
-
-        <div>
-            <ul style="text-decoration:none;list-style-type:none">
-                <li class="foot">COMPANY</li>
-                <li class="foot" style="margin-top:13px">About Us</li>
-                <li class="foot" style="margin-top:8px">Blog</li>
-                <li class="foot" style="margin-top:8px">Order Tracking</li>
-                <li class="foot" style="margin-top:8px">FAQ Page</li>
-                <li class="foot" style="margin-top:8px">Contact Us</li>
-                <li class="foot" style="margin-top:8px">Login</li>
-            </ul>
-        </div>
-
-        <div>
-            <ul style="text-decoration:none;list-style-type:none">
-                <li class="foot">SOCIAL MEDIA</li>
-                <li class="foot" style="margin-top:13px">Twitter</li>
-                <li class="foot" style="margin-top:8px">Instagram</li>
-                <li class="foot" style="margin-top:8px">Tumblr</li>
-                <li class="foot" style="margin-top:8px">Pinterest</li>
-            </ul>
-        </div>
-
-        <div>
-            <ul style="text-decoration:none;list-style-type:none">
-                <li class="foot">ARCHIVE</li>
-                <li class="foot" style="margin-top:13px">Designer Shoes</li>
-                <li class="foot" style="margin-top:8px">Gallery</li>
-                <li class="foot" style="margin-top:8px">Pricing</li>
-                <li class="foot" style="margin-top:8px">Feature Index</li>
-                <li class="foot" style="margin-top:8px">Help & Support</li>
-            </ul>
-        </div>
-        <p style="position:absolute;margin-top:370px;margin-left:-920px">© 2018 Qode Interactive, All Rights
-            Reserved</p>
-
-        <div style="position:absolute;margin-top:370px;margin-left: 350px" class="image">
-            <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/footer-bottom-1.png"
-                alt="">
-        </div>
-
-        <p style="margin-top:360px">Instagram</p>
-        <p style="margin-top:360px;margin-left: -110px">Facebook</p>
-
-    </div>
-
-
-</footer>
-
-
-
-
+                </section>
     
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<script src="./owl.carousel.min.js"></script>
-<script src="./shop-list.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="./accordion.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
