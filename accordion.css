@@ -1,7 +1,7 @@
 .headernav {
-    margin-top: -58px;
+    margin-top: -80px;
     padding-bottom: 35px;
-    padding-right: 35px;
+    padding-right: 25px;
     
 }
 .headernav a{
@@ -57,7 +57,7 @@ ul>li:hover{
 }
 
 .lists>li>ul {
-    width: 200px;
+    width: 300px;
     position: absolute;
     left: 15%;
     top: 22px;
@@ -134,7 +134,12 @@ ul>li:hover{
     position: absolute;
     display: none;
 }
-.hover:hover .fa-minus{
-    position: absolute;
-    display: inline-block;
+
+.creative{
+    border: 1px solid;
+    width: 550px;
+    padding: 12px;
+}
+#div{
+    display: none;
 }

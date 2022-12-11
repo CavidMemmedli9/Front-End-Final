@@ -1,19 +1,20 @@
 $(document).ready(function(){
-    $("#p").click(function(){
-        $("#div").fadeToggle();
+    $(".creative").click(function(){
+        $(".p-cr").fadeToggle();
         
     })
 })
 
 $(document).ready(function(){
-    $("#p1").click(function(){
-        $("#div2").fadeToggle();
+    $(".creative").click(function(){
+        $("#div").fadeToggle();
         
     })
 })
 $(document).ready(function(){
-    $("#p2").click(function(){
-        $("#div3").fadeToggle();
+    $(".creative").click(function(){
+        $("#div").fadeToggle();
         
     })
 })
+
