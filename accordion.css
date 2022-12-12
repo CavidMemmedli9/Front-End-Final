@@ -1,8 +1,8 @@
 .headernav {
     margin-top: -80px;
     padding-bottom: 35px;
-    padding-right: 25px;
-    
+    padding-right: 5px;
+    padding-left: 165px
 }
 .headernav a{
     color: black;
@@ -133,6 +133,11 @@ ul>li:hover{
 .hover:hover .fa-plus{
     position: absolute;
     display: none;
+   
+}
+.hover:hover .fa-minus{
+color: white ;
+display: block !important;
 }
 
 .creative{
@@ -142,4 +147,93 @@ ul>li:hover{
 }
 #div{
     display: none;
+}
+.accordion-left .accordion-item .accordion-header :hover {
+    background-color: red;
+    color: white;
+}
+
+.accordion .accordion-item .accordion-header :hover .minus{
+  display: block !important;
+}
+
+.accordion .accordion-item .accordion-header :hover .plus{
+    display: none;
+}
+
+.accordion-right .accordion-item .accordion-header :hover {
+    background-color: red;
+    color: white; 
+}
+  
+.accordion-left2 {
+    margin-top: 200px;
+}
+  
+.accordion-left2 .accordion-item .accordion-header :hover {
+    color: red;
+}
+  
+.accordion-right2 {
+    margin-top: 200px;
+}
+
+.accordion-right2 .accordion-item .accordion-header :hover {
+    color: red;
+}
+
+.accordion-button::after{
+    display: none;
+}
+.accordion-right .accordion-button:not(.collapsed){
+    background-color: red;
+    color: white;
+}
+.accordion-left .accordion-button:not(.collapsed){
+    background-color: red;
+    color: white;
+}
+.accordion-right2 .accordion-button:not(.collapsed){
+    background-color: white;
+    color: red;
+}
+.accordion-left2 .accordion-button:not(.collapsed){
+    background-color: white;
+    color: red;
+}
+.accordion-left2 .accordion-button:not(.collapsed) .minus{
+    display: block !important;
+}
+.accordion-left2 .accordion-button:not(.collapsed) .plus{
+    display: none !important;
+}
+.accordion-left .accordion-button:not(.collapsed) .minus{
+    display: block !important;
+}
+.accordion-left .accordion-button:not(.collapsed) .plus{
+    display: none !important;
+}
+.accordion-right .accordion-button:not(.collapsed) .minus{
+    display: block !important;
+}
+.accordion-right .accordion-button:not(.collapsed) .plus{
+    display: none !important;
+}
+.accordion-right2 .accordion-button:not(.collapsed) .minus{
+    display: block !important;
+}
+.accordion-right2 .accordion-button:not(.collapsed) .plus{
+    display: none !important;
+}
+.footer{
+    background-color: papayawhip;
+   
+    height: 400px;
+margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly
+}
+.foot:hover {
+    color: red ;
+    cursor: pointer ;
 }

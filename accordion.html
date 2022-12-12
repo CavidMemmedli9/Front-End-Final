@@ -1,303 +1,509 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./accordion.css">
 </head>
+
 <body>
-        <section id="navbar">
-                <div class="title">
-                    <h1 style="margin-top: 40px"><span style="color:crimson ;margin-left: 120px">F I O R</span> <span
-                            style="color: darkslategray">E L L O</span></h1>
-                    <header class="headernav">
-                        <div class="container-fluid pt-5">
-                            <div class="row">
-                                <div class="iconimg col-3 d-flex justify-content-center">
-                                    <a href="index.html"><img src="img/h2-logo-1.png" alt="">
-                                    </a>
-                                </div>
-        
-                                <div class="menu col-9 d-flex justify-content-center">
-                                    <ul class="lists">
-                                        <li>
-                                            <a  href="">HOME</a>
-                                            <ul>
-                                                <li><a href="index.html">Main Home</a></li>
-                                                <li><a href="">Grid Home</a></li>
-                                                <li><a href="">Flower Shop</a></li>
-                                                <li><a href="">Animated Slide</a></li>
-                                                <li><a href="">Metro Showcase</a></li>
-                                                <li><a href="">Carusel Showcase</a></li>
-                                                <li><a href="">Landing</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="">PAGES</a>
-                                            <ul>
-                                                <li><a href="">About Us</a></li>
-                                                <li><a href="">FAQ Page</a></li>
-                                                <li><a href="">Contact Us</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a style="padding: 10px;" id="shop" href="">SHOP</a>
-                                            <ul style="margin-left: -570px;height: 400px;">
-                                                <li style="font-size: 1.5rem">Product Types</li>
-                                                <li>Standart Product</li>
-                                                <li>Grouped Product</li>
-                                                <li>Variable Product</li>
-                                                <li>Virtual Product</li>
-                                                <li>External Product</li>
-                                                <li>Downloadable Product</li>
-                                                <li>On Sale Prdouct</li>
-                                                <li>New Product</li>
-                                            </ul>
-        
-                                            <ul style="margin-left: -330px;height: 400px;background-color: white;">
-                                                <li style="font-size: 1.5rem">Shop Pages</li>
-                                                <li>My Account</li>
-                                                <li>Cart</li>
-                                                <li>Checkout</li>
-                                                <li>Orders</li>
-                                                <li>Downloads</li>
-                                            </ul>
-        
-                                            <ul style="margin-left: -125px;height: 400px;">
-                                                <li style="font-size: 1.5rem">Shop Types</li>
-                                                <li>Product List</li>
-                                                <li>Without Sidebar</li>
-                                                <li>With Cagtegory Filter</li>
-                                                <li>Shop Carousel</li>
-                                                <li>Product Categories</li>
-                                                <li>Single Category</li>
-                                            </ul>
-        
-                                            <ul style="margin-left: 100px;height: 400px;">
-                                                <li style="font-size: 1.5rem">Shop Layouts</li>
-                                                <li>Two Coloumns Grid</li>
-                                                <li>Three Coloumns Grid</li>
-                                                <li>Four Coloumns Grid</li>
-                                                <li>Four Coloumns Wide</li>
-                                                <li> Five Coloumns Wide</li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="">PORTFOLIO</a>
-                                            <ul>
-        
-                                                <li> <a href="">Standard</a></li>
-                                                <li> <a href="">Gallery</a></li>
-                                                <li> <a href="">Masonry</a></li>
-                                                <li> <a href="">Portfolio Layouts</a>
-                                                    <i class="fas fa-angle-right"></i>
-                                                    <ul>
-                                                        <li><a href="">Two Columns</a></li>
-                                                        <li><a href="">Three Columns</a></li>
-                                                        <li><a href="">Four Columns</a></li>
-                                                        <li><a href="">Four Columns Wide</a></li>
-                                                        <li><a href="">Five Columns Wide</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li> <a href="">Portfolio Single</a>
-                                                    <i class="fas fa-angle-right"></i>
-                                                    <ul>
-                                                        <li><a href="">Small Images</a></li>
-                                                        <li><a href="">Small Slider</a></li>
-                                                        <li><a href="">Big Images</a></li>
-                                                        <li><a href="">Big Slider</a></li>
-                                                        <li><a href="">Gallery</a></li>
-                                                    </ul>
-                                                </li>
-        
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="">BLOG</a>
-                                            <ul>
-                                                <li> <a href="">Masonry</a></li>
-                                                <li> <a href="">Standards</a></li>
-                                                <li> <a href="">Post Types</a>
-        
-                                                    <i class="fas fa-angle-right"></i>
-                                                    <ul>
-                                                        <li>Standard</li>
-                                                        <li>Gallery</li>
-                                                        <li>Link</li>
-                                                        <li>Quote</li>
-                                                        <li>Audio</li>
-                                                        <li>Video</li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a style="text-decoration:underline" href="">ELEMENTS</a>
-                                            <ul>
-                                                <li><a href="">Classic</a><i class="fas fa-angle-right"></i>
-                                                    <ul>
-                                                        <li><a href="">Accordions</a></li>
-                                                        <li><a href="">Tabs</a></li>
-                                                        <li><a href="">Buttons</a></li>
-                                                        <li><a href="">Video Button</a></li>
-                                                        <li><a href="">Contac Forum</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="">Infographic</a><i class="fas fa-angle-right"></i>
-                                                    <ul>
-                                                        <li><a href="">Blog List</a></li>
-                                                        <li><a href="">Connters</a></li>
-                                                        <li><a href="">Count Down</a></li>
-                                                        <li><a href="">Google Maps</a></li>
-                                                        <li><a href="">Progress Bar</a></li>
-                                                        <li><a href="">Pie Carts</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="">Interactive</a><i class="fas fa-angle-right"></i>
-                                                    <ul>
-                                                        <li><a href="">Image Gallery</a></li>
-                                                        <li><a href="">Testimonials</a></li>
-                                                        <li><a href="">Team</a></li>
-                                                        <li><a href="">Banner</a></li>
-                                                        <li><a href="">Shop List</a></li>
-                                                        <li><a href="">Portfolio List</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="">Typography</a><i class="fas fa-angle-right"></i>
-                                                    <ul>
-                                                        <li><a href="">Heading</a></li>
-                                                        <li><a href="">Columns</a></li>
-                                                        <li><a href="">Section Title</a></li>
-                                                        <li><a href="">Blockqute</a></li>
-                                                        <li><a href="">Dropcaps</a></li>
-                                                        <li><a href="">Hightlights</a></li>
-                                                        <li><a href="">Seperators</a></li>
-                                                        <li>
-                                                            <a href=""></a>Custom Font
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href=""><i class="fas fa-search"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href=""><i style="font-size:20px" class="fa-solid fa-basket-shopping"></i><sup
-                                                    style="color:red">0</sup></a>
-                                        </li>
-                                        <li>
-                                            <a href="">CART ($0)</a>
-                                        </li>
-        
+    <section id="navbar">
+        <div class="title">
+            <h1 style="margin-top: 40px"><span style="color:crimson ;margin-left: 120px">F I O R</span> <span
+                    style="color: darkslategray">E L L O</span></h1>
+            <header class="headernav">
+                <div class="container-fluid pt-5">
+                    <div class="row">
+                        <div class="iconimg col-3 d-flex justify-content-center">
+                            </a>
+                        </div>
+
+                        <div class="menu col-9 d-flex justify-content-center">
+                            <ul class="lists">
+                                <li>
+                                    <a href="">HOME</a>
+                                    <ul>
+                                        <li><a href="index.html">Main Home</a></li>
+                                        <li><a href="">Grid Home</a></li>
+                                        <li><a href="">Flower Shop</a></li>
+                                        <li><a href="">Animated Slide</a></li>
+                                        <li><a href="">Metro Showcase</a></li>
+                                        <li><a href="">Carusel Showcase</a></li>
+                                        <li><a href="">Landing</a></li>
                                     </ul>
-                                </div>
-                            </div>
+                                </li>
+                                <li>
+                                    <a href="">PAGES</a>
+                                    <ul>
+                                        <li><a href="">About Us</a></li>
+                                        <li><a href="">FAQ Page</a></li>
+                                        <li><a href="">Contact Us</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a style="padding: 10px;" id="shop" href="">SHOP</a>
+                                    <ul style="margin-left: -570px;height: 400px;">
+                                        <li style="font-size: 1.5rem">Product Types</li>
+                                        <li>Standart Product</li>
+                                        <li>Grouped Product</li>
+                                        <li>Variable Product</li>
+                                        <li>Virtual Product</li>
+                                        <li>External Product</li>
+                                        <li>Downloadable Product</li>
+                                        <li>On Sale Prdouct</li>
+                                        <li>New Product</li>
+                                    </ul>
+
+                                    <ul style="margin-left: -330px;height: 400px;background-color: white;">
+                                        <li style="font-size: 1.5rem">Shop Pages</li>
+                                        <li>My Account</li>
+                                        <li>Cart</li>
+                                        <li>Checkout</li>
+                                        <li>Orders</li>
+                                        <li>Downloads</li>
+                                    </ul>
+
+                                    <ul style="margin-left: -125px;height: 400px;">
+                                        <li style="font-size: 1.5rem">Shop Types</li>
+                                        <li>Product List</li>
+                                        <li>Without Sidebar</li>
+                                        <li>With Cagtegory Filter</li>
+                                        <li>Shop Carousel</li>
+                                        <li>Product Categories</li>
+                                        <li>Single Category</li>
+                                    </ul>
+
+                                    <ul style="margin-left: 100px;height: 400px;">
+                                        <li style="font-size: 1.5rem">Shop Layouts</li>
+                                        <li>Two Coloumns Grid</li>
+                                        <li>Three Coloumns Grid</li>
+                                        <li>Four Coloumns Grid</li>
+                                        <li>Four Coloumns Wide</li>
+                                        <li> Five Coloumns Wide</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">PORTFOLIO</a>
+                                    <ul>
+
+                                        <li> <a href="">Standard</a></li>
+                                        <li> <a href="">Gallery</a></li>
+                                        <li> <a href="">Masonry</a></li>
+                                        <li> <a href="">Portfolio Layouts</a>
+                                            <i class="fas fa-angle-right"></i>
+                                            <ul>
+                                                <li><a href="">Two Columns</a></li>
+                                                <li><a href="">Three Columns</a></li>
+                                                <li><a href="">Four Columns</a></li>
+                                                <li><a href="">Four Columns Wide</a></li>
+                                                <li><a href="">Five Columns Wide</a></li>
+                                            </ul>
+                                        </li>
+                                        <li> <a href="">Portfolio Single</a>
+                                            <i class="fas fa-angle-right"></i>
+                                            <ul>
+                                                <li><a href="">Small Images</a></li>
+                                                <li><a href="">Small Slider</a></li>
+                                                <li><a href="">Big Images</a></li>
+                                                <li><a href="">Big Slider</a></li>
+                                                <li><a href="">Gallery</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">BLOG</a>
+                                    <ul>
+                                        <li> <a href="">Masonry</a></li>
+                                        <li> <a href="">Standards</a></li>
+                                        <li> <a href="">Post Types</a>
+
+                                            <i class="fas fa-angle-right"></i>
+                                            <ul>
+                                                <li>Standard</li>
+                                                <li>Gallery</li>
+                                                <li>Link</li>
+                                                <li>Quote</li>
+                                                <li>Audio</li>
+                                                <li>Video</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a style="text-decoration:underline" href="">ELEMENTS</a>
+                                    <ul>
+                                        <li><a href="">Classic</a><i class="fas fa-angle-right"></i>
+                                            <ul>
+                                                <li><a href="">Accordions</a></li>
+                                                <li><a href="">Tabs</a></li>
+                                                <li><a href="">Buttons</a></li>
+                                                <li><a href="">Video Button</a></li>
+                                                <li><a href="">Contac Forum</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Infographic</a><i class="fas fa-angle-right"></i>
+                                            <ul>
+                                                <li><a href="">Blog List</a></li>
+                                                <li><a href="">Connters</a></li>
+                                                <li><a href="">Count Down</a></li>
+                                                <li><a href="">Google Maps</a></li>
+                                                <li><a href="">Progress Bar</a></li>
+                                                <li><a href="">Pie Carts</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Interactive</a><i class="fas fa-angle-right"></i>
+                                            <ul>
+                                                <li><a href="">Image Gallery</a></li>
+                                                <li><a href="">Testimonials</a></li>
+                                                <li><a href="">Team</a></li>
+                                                <li><a href="">Banner</a></li>
+                                                <li><a href="">Shop List</a></li>
+                                                <li><a href="">Portfolio List</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Typography</a><i class="fas fa-angle-right"></i>
+                                            <ul>
+                                                <li><a href="">Heading</a></li>
+                                                <li><a href="">Columns</a></li>
+                                                <li><a href="">Section Title</a></li>
+                                                <li><a href="">Blockqute</a></li>
+                                                <li><a href="">Dropcaps</a></li>
+                                                <li><a href="">Hightlights</a></li>
+                                                <li><a href="">Seperators</a></li>
+                                                <li>
+                                                    <a href=""></a>Custom Font
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fa-search"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i style="font-size:20px" class="fa-solid fa-basket-shopping"></i><sup
+                                            style="color:red">0</sup></a>
+                                </li>
+                                <li>
+                                    <a href="">CART ($0)</a>
+                                </li>
+
+                            </ul>
                         </div>
+                    </div>
                 </div>
-                </header>
+        </div>
+        </header>
+
+        </nav>
+        </div>
+
+        <div id="shop-list">
+
+        </div>
+    </section>
+
+    <div style="font-size:3.5rem;margin-left:130px;margin-top: -140px">Accordions</div>
+    <section class="accordions">
+           
+            <div class="container">
+              <div class="row">
+      
+      
+                <div  class="accordion accordion-left col-lg-6 mt-5" id="accordionExample">
+                  <div style="margin-top:170px" class="accordion-item">
+                    <h2 class="accordion-header " id="headingOne">
+                      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-left"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+                        CREATIVE ELEMENTS
+                      </button>
+                    </h2>
+                    <div id="collapseOne-left" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo-left" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+                        ATTENTION TO DETAIL
+                      </button>
+                    </h2>
+                    <div id="collapseTwo-left" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree-left" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+                        EASY IMPORT
+                      </button>
+                    </h2>
+                    <div id="collapseThree-left" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="accordion accordion-right col-lg-6 col-sm-12 mt-5" id="accordionExample">
+                  <div style="margin-top:170px" class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-right"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+                        CREATIVE ELEMENTS
+                      </button>
+                    </h2>
+                    <div id="collapseOne-right" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo-right" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+      
+                        CREATIVE ELEMENTS
+                      </button>
+                    </h2>
+                    <div id="collapseTwo-right" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree-right" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+      
+                        CREATIVE ELEMENTS
+                      </button>
+                    </h2>
+                    <div id="collapseThree-right" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="accordion accordion-left2 col-lg-6 col-sm-12 " id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-left2"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+      
+                        CREATIVE ELEMENTS
+                      </button>
+                    </h2>
+                    <div id="collapseOne-left2" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo-left2" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+      
+                        CREATIVE ELEMENTS
+                      </button>
+                    </h2>
+                    <div id="collapseTwo-left2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree-left3" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+                        CREATIVE ELEMENTS
+                      </button>
+                    </h2>
+                    <div id="collapseThree-left3" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="accordion accordion-right2 col-lg-6 col-sm-12 " id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-right2"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+                        EASY IMPORT
+                      </button>
+                    </h2>
+                    <div id="collapseOne-right2" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo-right2" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+                        EASY IMPORT
+                      </button>
+                    </h2>
+                    <div id="collapseTwo-right2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree-right2" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fas fa-plus plus"></i>
+                        <i class="fas fa-minus minus d-none"></i>
+                        EASY IMPORT
+                      </button>
+                    </h2>
+                    <div id="collapseThree-right2" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+          </section>
+    
+
+          <footer>
+                <div class=" footer">
+                    <div>
+                        <ul style="text-decoration:none;list-style-type:none">
+                            <li class="foot">CUSTOMER SERVICE</li>
+                            <li class="foot" style="margin-top:13px">Help & Contact Us</li>
+                            <li class="foot" style="margin-top:8px">Returns & Refunds</li>
+                            <li class="foot" style="margin-top:8px">Online Stores</li>
+                            <li class="foot" style="margin-top:8px">Terms & Conditions</li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <ul style="text-decoration:none;list-style-type:none">
+                            <li class="foot">COMPANY</li>
+                            <li class="foot" style="margin-top:13px">About Us</li>
+                            <li class="foot" style="margin-top:8px">Blog</li>
+                            <li class="foot" style="margin-top:8px">Order Tracking</li>
+                            <li class="foot" style="margin-top:8px">FAQ Page</li>
+                            <li class="foot" style="margin-top:8px">Contact Us</li>
+                            <li class="foot" style="margin-top:8px">Login</li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <ul style="text-decoration:none;list-style-type:none">
+                            <li class="foot">SOCIAL MEDIA</li>
+                            <li class="foot" style="margin-top:13px">Twitter</li>
+                            <li class="foot" style="margin-top:8px">Instagram</li>
+                            <li class="foot" style="margin-top:8px">Tumblr</li>
+                            <li class="foot" style="margin-top:8px">Pinterest</li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <ul style="text-decoration:none;list-style-type:none">
+                            <li class="foot">ARCHIVE</li>
+                            <li class="foot" style="margin-top:13px">Designer Shoes</li>
+                            <li class="foot" style="margin-top:8px">Gallery</li>
+                            <li class="foot" style="margin-top:8px">Pricing</li>
+                            <li class="foot" style="margin-top:8px">Feature Index</li>
+                            <li class="foot" style="margin-top:8px">Help & Support</li>
+                        </ul>
+                    </div>
+                    <p style="position:absolute;margin-top:370px;margin-left:-920px">© 2018 Qode Interactive, All Rights
+                        Reserved</p>
+    
+                    <div style="position:absolute;margin-top:370px;margin-left: 350px" class="image">
+                        <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/footer-bottom-1.png"
+                            alt="">
+                    </div>
+    
+                    <p style="margin-top:360px">Instagram</p>
+                    <p style="margin-top:360px;margin-left: -110px">Facebook</p>
+    
+                </div>
+    
+    
+            </footer>
+    
+    
+
         
-                </nav>
-                </div>
-
-                <div id="shop-list">
-
-                    </div>
-
-                <p style="font-size:3.5rem;margin-left:130px;margin-top: -140px">Accordions</p>
-
-                <section id="second part">
-
-                    <div class="container">
-
-                   
-
-                        <div  class="accordion" id="accordionExample">
-                                <div style="width:600px;margin-top:100px" class="accordion-item">
-                                  <h2 class="accordion-header" id="headingOne">
-                                    <button  class="accordion-button collapsed hover" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapse">
-                                        <a id="a" href=""><i  id="plus" style="color:black" class="fa-solid fa-plus"></i><i  style="color:black;margin-left: -13px; " class="fa-solid fa-minus"></i> </a>
-                                        
-                                        <span style="margin-left: 15px;">  CREATIVE ELEMENTS</span>
-                                     
-                                    </button>
-                                  </h2>
-                                  <div  id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample ">
-                                    <div  class="accordion-body">
-                                      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quo ipsa enim illum nihil fugit blanditiis, dolores quia. Veniam iusto tenetur impedit ea unde quia ipsam porro, alias magnam facilis nam dolor maiores amet corporis.</span> 
-                                    </div>
-                                  </div>
-                                </div>
-                                <div style="width: 600px;margin-top: 20px;" class="accordion-item">
-                                  <h2 class="accordion-header" id="headingTwo">
-                                    <button  class="accordion-button collapsed hover" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <a id="a" href=""><i  id="plus" style="color:black" class="fa-solid fa-plus"></i><i  style="color:black;margin-left: -13px; " class="fa-solid fa-minus"></i> </a>
-                                      <span style="margin-left:15px">ATTENTION TO DETAIL</span>
-                                        
-                                    </button>
-                                  </h2>
-                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div  class="accordion-body">
-                                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, quos enim autem debitis totam expedita rerum dolore fugiat a, dolor molestias. Laboriosam, corrupti deserunt ab debitis iusto aut eius doloremque, ut quia, quos neque enim?</p>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div style="width:600px;margin-top: 20px;" class="accordion-item">
-                                  <h2 class="accordion-header" id="headingThree">
-                                    <button  class="accordion-button collapsed hover" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        <a id="a" href=""><i  id="plus" style="color:black" class="fa-solid fa-plus"></i><i  style="color:black;margin-left: -13px; " class="fa-solid fa-minus"></i> </a>
-                                        <span style="margin-left:15px">EASY IMPORT</span>
-                                        
-                                    </button>
-                                  </h2>
-                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tenetur doloremque, voluptatem odit minus cupiditate consequuntur veritatis et vitae suscipit sed explicabo molestiae facilis quidem possimus esse omnis aut veniam! Perspiciatis nostrum esse ullam vitae?</p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-                </section>
-              
-
-                    <div style="margin-left: 850px;margin-top: -200px;" class="container">
-                        <div  class="creative">CREATIVE ELEMENTS</div>
-                        <div id="div">
-                            <p class="p-cr" style="width: 550px;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro deserunt beatae pariatur incidunt? Rerum dolorem, ea unde ut sequi ipsa! Unde impedit eius quo.
-                            </p>
-                        </div>
-
-                        <div style="margin-top: 20px;" class="creative">CREATIVE ELEMENTS</div>
-                        <div id="div">
-                            <p class="p-cr" style="width: 550px;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro deserunt beatae pariatur incidunt? Rerum dolorem, ea unde ut sequi ipsa! Unde impedit eius quo.
-                            </p>
-                        </div>
-
-                        <div style="margin-top: 20px;" class="creative">CREATIVE ELEMENTS</div>
-                        <div id="div">
-                            <p class="p-cr" style="width: 550px;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro deserunt beatae pariatur incidunt? Rerum dolorem, ea unde ut sequi ipsa! Unde impedit eius quo.
-                            </p>
-                        </div>
-
-
-
-                    </div>
 
 </body>
-<script src="./accordion.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="./accordion.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
 </html>
