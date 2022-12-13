@@ -1,7 +1,7 @@
 .headernav {
-    margin-top: -58px;
+    margin-top: -80px;
     padding-bottom: 35px;
-    padding-right: 180px;
+    
     
 }
 .headernav a{
@@ -187,3 +187,26 @@ button:hover{
     opacity: 1;
     transition: all 0.35s;
   }
+  .nav button span:hover{
+    color: red;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+      background-color: red;
+
+  }
+  .nav-pills .nav-link.active span, .nav-pills .show>.nav-link span{
+   color: white !important;
+
+}
+.footer{
+    background-color: papayawhip;
+   
+    height: 400px;
+margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly
+}
+.foot:hover {
+    color: red ;
+    cursor: pointer ;
+}
