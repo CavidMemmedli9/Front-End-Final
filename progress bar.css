@@ -1,7 +1,7 @@
 .headernav {
-    margin-top: -58px;
-    padding-bottom: 35px;
-    padding-right: 35px;
+    margin-top: -80px;
+    padding-bottom: 25px;
+
     
 }
 .headernav a{
@@ -57,7 +57,7 @@ ul>li:hover{
 }
 
 .lists>li>ul {
-    width: 200px;
+    width: 300px;
     position: absolute;
     left: 15%;
     top: 22px;
@@ -79,6 +79,7 @@ ul>li:hover{
     background-color: white;
     width: 100%;
     padding: 10px 15px;
+    
 }
 
 .lists>li>ul>li>i {
@@ -126,3 +127,59 @@ ul>li:hover{
     background-color: ivory
 }
 
+
+.bar{
+    height: 6px;
+    background: grey;
+    border-radius: 5px
+}
+.bar span{
+    height: 6px;
+    float: left;
+    border-radius: 5px
+}
+.growing{
+    background: red;
+    width: 95%;
+    animation: growing 3s;
+}
+.col-6{
+    margin-left: -60px
+}
+
+
+@keyframes growing{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+.watering{
+    background: red;
+    width: 80%;
+    animation: watering 3s;
+}
+@keyframes watering{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.furtiziling{
+    background: red;
+    width: 55%;
+    animation: furtiziling 3s;
+}
+@keyframes furtiziling{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
