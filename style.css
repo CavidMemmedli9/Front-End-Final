@@ -268,4 +268,5 @@ margin-top: 200px;
 .foot:hover {
     color: red ;
     cursor: pointer ;
+    text-decoration: none
 }

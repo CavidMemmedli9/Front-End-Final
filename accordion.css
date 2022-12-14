@@ -231,13 +231,13 @@ display: block !important;
 }
 .footer{
     background-color: papayawhip;
-   
     height: 400px;
-margin-top: 200px;
+    margin-top: 200px;
     display: flex;
     justify-content: space-evenly
 }
 .foot:hover {
     color: red ;
     cursor: pointer ;
+    text-decoration: none
 }

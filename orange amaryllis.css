@@ -113,6 +113,9 @@ ul>li:hover{
 .lists li {
     list-style-type: none;
 }
+body{
+    overflow-x: hidden;
+}
 
 .fa-search{
     font-size: 20px;
@@ -131,8 +134,17 @@ ul>li:hover{
     overflow: hidden;
    
 }
+button{
+    padding: 10px;
+    width: 170px
+}
+.city{
+   margin-left:-10px;
+   margin-top: -16px
+}
 .w3-button:hover{
-    background: red
+    background: red;
+    color: white
 }
 .images #img:hover{
     transform: scale(1.1);
@@ -147,11 +159,15 @@ ul>li:hover{
     background-color: papayawhip;
    
     height: 400px;
-margin-top: 200px;
+    margin-top: 200px;
     display: flex;
     justify-content: space-evenly
 }
 .foot:hover {
     color: red ;
     cursor: pointer ;
+    text-decoration: none
+}
+.footer ul li{
+    margin-top:25px;
 }

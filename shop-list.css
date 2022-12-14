@@ -139,7 +139,7 @@ body{
 
 }
 .image-over:hover{
-    opacity: 1;
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -180,4 +180,5 @@ transition: 1s ease;
 .foot:hover {
     color: red ;
     cursor: pointer ;
+    text-decoration: none
 }
