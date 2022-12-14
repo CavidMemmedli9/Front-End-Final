@@ -1,7 +1,7 @@
 .headernav {
-    margin-top: -58px;
+    margin-top: -80px;
     padding-bottom: 35px;
-    padding-right: 35px;
+   padding-left: 50px
     
 }
 .headernav a{
@@ -57,9 +57,9 @@ ul>li:hover{
 }
 
 .lists>li>ul {
-    width: 200px;
+    width: 400px;
     position: absolute;
-    left: 15%;
+    left: 10%;
     top: 22px;
     padding-top: 48px;
     z-index: 10;
@@ -82,11 +82,12 @@ ul>li:hover{
 }
 
 .lists>li>ul>li>i {
-    padding-left: 20px;
+    padding-right: 10px;
 }
 
 .lists>li>ul>li>a {
     display: inline-block;
+    padding-right: 20px
 }
 
 .lists>li>ul>li>ul {
@@ -117,6 +118,7 @@ ul>li:hover{
     font-size: 20px;
 }
 
+
 .fa-shopping-bag{
     font-size: 20px;
 }
@@ -128,6 +130,9 @@ ul>li:hover{
  .images #img{
     overflow: hidden;
    
+}
+.w3-button:hover{
+    background: red
 }
 .images #img:hover{
     transform: scale(1.1);

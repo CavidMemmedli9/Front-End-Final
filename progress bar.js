@@ -77,3 +77,44 @@ setInterval(() => {
         
     }
 }, 30);
+
+
+let growing2=document.querySelector("#growing2")
+let value=0;
+setInterval(() => {
+    if(value==95){
+        clearInterval();
+    }else{
+        value+=1;
+        growing2.innerHTML=value+"%"
+    }
+}, 30);
+
+
+
+let watering2=document.querySelector("#watering2")
+let num=0;
+
+setInterval(() => {
+    if(num==80){
+        clearInterval();
+    }else{
+        num+=1;
+        watering2.innerHTML=num+"%";
+        
+    }
+}, 30);
+
+
+let furtiziling2=document.querySelector("#furtiziling2")
+let number=0;
+
+setInterval(() => {
+    if(number==55){
+        clearInterval();
+    }else{
+        number+=1;
+        furtiziling2.innerHTML=number+"%";
+        
+    }
+}, 30);

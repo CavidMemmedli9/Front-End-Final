@@ -112,6 +112,10 @@ ul>li:hover{
 .lists li {
     list-style-type: none;
 }
+body{
+    overflow-x: hidden;
+}
+
 
 .fa-search{
     font-size: 20px;

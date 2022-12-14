@@ -1,4 +1,5 @@
 
+
 .headernav {
     margin-top: -58px;
     padding-bottom: 35px;
@@ -112,6 +113,10 @@ ul>li:hover{
 
 .lists li {
     list-style-type: none;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .fa-search{

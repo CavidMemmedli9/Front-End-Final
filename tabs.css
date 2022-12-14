@@ -116,6 +116,10 @@ ul>li:hover{
 .fa-search{
     font-size: 20px;
 }
+body{
+    overflow-x: hidden;
+}
+
 
 .fa-shopping-bag{
     font-size: 20px;
@@ -130,9 +134,7 @@ button:hover{
     cursor: pointer;
 }
   
-* {
-    box-sizing: border-box;
-  }
+
   
   .wrapper {
     max-width: 50rem;

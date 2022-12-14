@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
@@ -210,13 +210,13 @@
                 <div id="shop-list">
 
                     </div>
-                    <p style="font-size:3.5rem;margin-left:130px;margin-top: -140px">Product List</p>
-                    <p style="font-size:1.2rem;color:gray;margin-left:135px;margin-top: -50px"> Where Flowers are our inspiration</p>
+                    <p style="font-size:3.5rem;margin-left:130px;margin-top: -170px">Product List</p>
+                    <p style="font-size:1.2rem;color:gray;margin-left:135px;margin-top: -10px"> Where Flowers are our inspiration</p>
 
                    
 
-                    <div class="container">
-                            <div  class="images">
+                    <div style="margin-left:-30px" class="container">
+                            <div   class="images">
                                     <div  style="display:grid;margin-left: 140px" class="image">
                                         <img style="width:130px;height:170px;margin-top: 110px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-2-gallery-4-300x400.jpg" alt="">
                                     <img style="width:130px;height:170px;margin-top: 20px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-2-gallery-4-300x400.jpg" alt="">
@@ -233,73 +233,102 @@
                                         <h1 style="font-size:2rem;font-family:Arial, Helvetica, sans-serif">Orange Amaryllis</h1>
                                         <p style="color:gray">$259</p>
                                         <p style="width:470px;color:gray">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.</p>
-                                    <input style="padding:10px;color:gray" type="number" min="0" placeholder="Quantity">
-                                    <button style="padding:10px;background-color:black;color:white">ADD TO CART</button>
-                                    <p>SKU: 989873</p>
+                                    <input style="padding:10px; color:gray" type="number" min="0" placeholder="Quantity">
+                                    <button style="padding:10px;margin-left: 0px ;position: absolute; margin-top: 0px; width: 190px; background-color:black;color:white">ADD TO CART</button>
+                                    <p style="margin-top:30px">SKU: 989873</p>
                                     <p>Categories: Exotic, Various</p>
                                     <p>Tags: Llilies, Orchids</p>
                                     </div>
 
                     </div>
 
-                    <section  id="third-part ">
-                        <div style="margin-top:480px;" class="container">
-                            <button style="background:red;color:white;padding:10px;width:170px;border-style:none;height:50px;margin-left: 130px">DESCRIPTION</button>
-                           <hr>
-                            <div id="desc">
-                                <h2 style="margin-left:130px">The Power Of Flowers</h2>
-                                <p style="width:1100px;margin-left:125px;color: gray">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante</p>
-                            </div>
+                    <section style="margin-top:500px;margin-left:150px"   id="third-part ">
+                            <div  class="w3-bar w3-black">
+                                    <button class="w3-bar-item w3-button" onclick="openCity('London')">DESCRIPTIN</button>
+                                    <button class="w3-bar-item w3-button" onclick="openCity('Paris')">ADDITIONAL INFORMATION </button>
+                                    <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">REVIEWS (2)</button>
+                                  </div>
+                                  
+                                  <div id="London" class="w3-container city">
+                                        <h1>The power of flowers</h1> 
+                                        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+                                  </div>
+                                  
+                                  <div id="Paris" class="w3-container city" style="display:none">
+                                    <p>
+                                            Weight	1 kg
+                                        </p> <br>
+                                        <p>Dimensions	30 × 30 × 50 cm</p>
 
-                  
-                        <button style="background:white;width: 240px;height:50px;margin-left:300px;position: absolute; margin-top: -197px">ADDITIONAL INFORMATION</button>
-                        <div id="addition">
-                           <p style="margin-left:160px;display: none">Weight:    1kg</p> 
-                           <p style="margin-left:160px;display: none" > Dimensions:  30 * 30 * 50cm</p>
-                        </div>
+                                  </div>
+                                  
+                                  <div id="Tokyo" class="w3-container city" style="display:none">
+                                        Reviews
 
-                        <button style="background:white;width: 210px;height:50px;margin-left:540px;position: absolute; margin-top: -197px">REVIEWS (2)</button>
-                        
-                        </div> <hr>
+                                        JOSHUA GARCIA 27.04.2018
+                                        
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                        
+                                        
+                                        JOAN STANLEY 27.04.2018
+                                        
+                                        Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit
+                                        
+                                        Add a review
+                                        Your email address will not be published. Required fields are marked *
+                                        
+                                        Your review *
+                                        
+                                        Name *
+                                        
+                                        Email *
+                                        
+                                        
+                                        Save my name, email, and website in this browser for the next time I comment.
+                                  </div>
                     </section>
                     
 
                     <section id="fourth-part">
                         <div class="container">
-                            <h2 style=" margin-top: 120px;margin-left: 150px;font-size: small;">RELATED PRODUCTS</h2>
+                            <h2 style=" margin-top: 120px;margin-left: 30px;font-size: medium;">RELATED PRODUCTS</h2>
                             <div style="display: flex;"  class="images">
                                
-                                <div style="overflow:hidden" >
-                                    <img id="img" style="width: 300px;height:400px;margin-left: 150px;" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-9-img.jpg" alt="">
-                                    <p style="margin-left: 200px;">ROCK SOAPWORT</p>
-                                    <p style="margin-left: 250px;">259$</p>
-                                    <p id="p" style="margin-left: 220px;">View products</p>
-                                </div>
+                                
+                                    <div style="overflow:hidden"> 
+                                            <img id="img" style="width: 300px;height:400px;;margin-left: 30px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-10-img.jpg" alt="">
+                                        <p style="margin-left: 110px;margin-top: 25px">CACTUS IN ORANGE</p>
+                                        <p style="margin-left: 150px;">259$</p>
+                                        <p id="p" style="margin-left: 130px;">Read more</p>
+                                        <p style="background-color: black;color: white;width: 46px;padding: 5px;position: absolute; margin-left: 50px;margin-top: -520px">Sold</p>
+                                        
+                                       
+                                    </div>
+                                
+                                    <div style="overflow:hidden" >
+                                            <img id="img" style="width: 300px;height:400px;margin-left: 50px;" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-9-img.jpg" alt="">
+                                            <p style="margin-left: 140px;margin-top: 25px">ROCK SOAPWORT</p>
+                                            <p style="margin-left: 160px;">259$</p>
+                                            <p id="p" style="margin-left: 140px;">View products</p>
+                                            </div>
 
-                                <div style="overflow:hidden">
-                                    <img id="img" style="width: 300px;height:400px;margin-left: 30px;" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-13-img.jpg" alt="">
-                                <p style="margin-left: 110px;">FOXGLOVE FLOWER</p>
-                                <p style="margin-left: 150px;">259$</p>
-                                <p id="p" style="margin-left: 140px;">Add to cart</p>
-                                </div>
+                              
                                 
 
                                 <div style="overflow:hidden">
                                     <img id="img" style="width: 300px;height:400px;;margin-left: 30px" src="https://thumbs.dreamstime.com/b/watercolor-illustration-red-wood-lily-isolated-white-background-botanical-art-lilium-philadelphicum-vintage-style-close-185694286.jpg" alt="">
-                               <p style="margin-left: 110px;">COLORFUL TULIPS</p>
-                               <p  style="margin-left: 150px;">350$</p>
+                               <p style="margin-left: 110px;margin-top: 25px">SCARLET SAGE</p>
+                               <p  style="margin-left: 150px;">159$</p>
                                <p id="p" style="margin-left: 140px;">Add to cart</p>
                                 </div>
 
-                                <div style="overflow:hidden"> 
-                                    <img id="img" style="width: 300px;height:400px;;margin-left: 30px" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-10-img.jpg" alt="">
-                                <p style="margin-left: 110px;">CACTUS IN ORANGE</p>
-                                <p style="margin-left: 150px;">259$</p>
-                                <p id="p" style="margin-left: 140px;">Read more</p>
-                                <p style="background-color: black;color: white;width: 46px;padding: 5px;position: absolute; margin-left: 50px;margin-top: -500px">Sold</p>
-                                
+                                <div style="overflow:hidden">
+                                        <img id="img" style="width: 300px;height:400px;margin-left: 30px;" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-13-img.jpg" alt="">
+                                    <p style="margin-left: 110px;margin-top: 25px">FOXGLOVE FLOWER</p>
+                                    <p style="margin-left: 150px;">259$</p>
+                                    <p id="p" style="margin-left: 140px;">Add to cart</p>
+                                    </div>
                                
-                            </div>
                         </div>
 
                     </section>
@@ -368,4 +397,5 @@
                        
 </body>
 <script src="orange amaryllis.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>

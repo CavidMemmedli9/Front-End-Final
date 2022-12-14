@@ -1,7 +1,8 @@
-.headernav {
-    margin-top: -80px;
-    padding-bottom: 25px;
 
+.headernav {
+    margin-top: -90px;
+    padding-bottom: 25px;
+padding-left: 45px
     
 }
 .headernav a{
@@ -113,6 +114,9 @@ ul>li:hover{
 .lists li {
     list-style-type: none;
 }
+body{
+    overflow-x: hidden;
+}
 
 .fa-search{
     font-size: 20px;
@@ -182,4 +186,17 @@ ul>li:hover{
     100%{
         width: 55%;
     }
+}
+
+.footer{
+    background-color: papayawhip;
+   
+    height: 400px;
+margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly
+}
+.foot:hover {
+    color: red ;
+    cursor: pointer ;
 }
