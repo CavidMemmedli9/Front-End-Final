@@ -1,5 +1,3 @@
-
-
 .headernav {
     margin-top: -58px;
     padding-bottom: 35px;
@@ -176,103 +174,28 @@ cursor: pointer;
      cursor: pointer;
  }
  
- #second-part .images .image1 {
+ .images .image1 {
      overflow: hidden;
  }
 
- #second-part .images2 .image1 {
+  .images2 .image1 {
     overflow: hidden;
 }
 
-#second-part.images{
+.images{
     overflow: hidden;
     display: row;
 }
-#second-part img:hover{
+ img:hover{
    transform: scale(1.1);
    z-index: 1;
     cursor: pointer;
 }
-#second-part .images .p1:hover{
+ .container .p1:hover{
      color: red !important;
      cursor: pointer;
  }
- #second-part .images2 .p1:hover{
+  .images2 .p1:hover{
     color: red !important;
     cursor: pointer;
-}
-
- #third-part div.container{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: gainsboro;
-    width: 100%;
-    height: 700px;
-    margin-top: 160px;
- }
- #third-part div.video{
-    overflow: hidden;
-    margin-left: 150px;
- }
- #third-part div.video .img:hover{
-transform: scale(1.05,1.05)
- }
- 
- #third-part div.title{
-   margin-left: 800px;
-   margin-top: -340px;
- }
-  .images{
-display: flex;
-justify-content: space-evenly;
- }
- #fourth-part div.title{
-     margin-left: 580px;
-    
- }
- .parallax{
-     background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
-     background-attachment: fixed;
-     width: 100%;
-     height: 540px;
-     background-repeat: no-repeat;
-     background-size: auto;
-     background-position: center;
-     
- }
-.image1 img:hover  {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-.image2 img:hover  {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-.image3 img:hover  {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-.image4 img:hover  {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-.footer{
-    background-color: papayawhip;
-   
-    height: 400px;
-margin-top: 200px;
-    display: flex;
-    justify-content: space-evenly
-}
-.foot:hover {
-    color: red ;
-    cursor: pointer ;
-    text-decoration: none
-}
-.owl-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center
 }
