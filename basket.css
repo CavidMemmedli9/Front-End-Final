@@ -199,3 +199,15 @@ cursor: pointer;
     color: red !important;
     cursor: pointer;
 }
+#basketCount{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -5px;
+    background: red;
+    color: white;
+    border-radius: 50px
+}
+#cart:hover{
+    text-decoration: none;
+    list-style-type: none
+}

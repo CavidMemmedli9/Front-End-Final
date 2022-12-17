@@ -1,8 +1,10 @@
 function BasketCount() {
     let basket = JSON.parse(localStorage.getItem("basket"));
     basketCount.innerText = basket.length;
+    document.querySelector(".cart1").innerHTML = JSON.parse(localStorage.getItem("TotalPrice"));
 }
 BasketCount()
+
 
 if (JSON.parse(localStorage.getItem("basket")) != null) {
     let arr = JSON.parse(localStorage.getItem("basket"));
@@ -11,12 +13,15 @@ if (JSON.parse(localStorage.getItem("basket")) != null) {
         let tr = document.createElement("tr")
         let td = `
             <td>
-            <img width="50px" src="${element.image}" alt="">
+            <img  width="70px"  src="${element.image}" alt="">
             </td>
-            <td>${element.name}</td>
+            <td>
+            ${element.name}
+            </td>
+           
          
         `
-        console.log(element.image);
+         
         
 
 
@@ -32,11 +37,15 @@ if (JSON.parse(localStorage.getItem("basket")) != null) {
         img2.setAttribute("class", "fa-solid fa-minus");
         elem.append(img1, img2);
         let count = document.createElement("td");
-        count.innerText = element.count
+        count.innerText = element.count;
+
+        let tdPrice=document.createElement("td");
+        tdPrice=element.price;
+        
 
 
         tr.innerHTML += td
-        tr.append(count, elem, tdx,)
+        tr.append(count, elem, tdx,tdPrice)
         
         tbody.append(tr);
 
@@ -77,7 +86,7 @@ if (JSON.parse(localStorage.getItem("basket")) != null) {
 
     });
 
-
+    
 
 
 }

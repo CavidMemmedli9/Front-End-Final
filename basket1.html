@@ -194,7 +194,7 @@
                                                     style="color:red">  <span id="basketCount">0</span>  </sup></a>
                                         </li>
                                         <li>
-                                            <a href="">CART ($0)</a>
+                                            <a href="">CART ($ <span id="cart" class="cart1"> 0</span> )</a>
                                         </li>
         
                                     </ul>
@@ -215,16 +215,17 @@
 
 
 
-                <table id="table" class="table">
-                        <thead>
+                <table  id="table" class="table">
+                        <thead >
                           <tr>
                            
-                            <th scope="col">Product</th>
-                            <th scope="col">Name</th>
+                            <th style="position: absolute;margin-left:0px"  scope="col">Product</th>
+                            <th   scope="col">Name</th>
                             <th  scope="col">Count</th>
-                            <th scope="col">Settings </th>
-                            <th scope="col">Element</th>
-                        
+                            <th  scope="col">Settings </th>
+                            <th  scope="col">Element</th>
+                            <th  scope="col">Price</th>
+                            
                           </tr>
                         </thead>
                         <tbody id="tbody">

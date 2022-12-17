@@ -131,6 +131,7 @@ body{
     background-color: ivory
 }
 #table{
-    width: 100%;
-    background: red
+    margin-top: 200px;
+    width:500px;
+  border:1px solid black
 }

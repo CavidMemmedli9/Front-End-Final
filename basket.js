@@ -16,15 +16,14 @@ let p1=document.querySelectorAll(".p1");
 let basketCount=document.getElementById("basketCount");
 
 localStorage.setItem("basket",JSON.stringify([]));
-
-p1.forEach(p1=>{
-
-    p1.addEventListener("click",function(ev){
-        
-        
-        ev.preventDefault();
+let cart = document.querySelector(".cart1");
+let price = 0;
+p1.forEach(el=>{
+    el.addEventListener("click",function(ev){
         let id=this.parentElement.getAttribute("data-id");
         let arr=JSON.parse(localStorage.getItem("basket"));
+        
+        
      
         let existProduct=arr.find(product=>product.id==id);
         if(existProduct==undefined){
@@ -32,16 +31,25 @@ p1.forEach(p1=>{
                 id:id,
                 count:1,
                 image:this.previousElementSibling.previousElementSibling. previousElementSibling.getAttribute("src"),
-                name:this.previousElementSibling.previousElementSibling.innerText
+                name:this.previousElementSibling.previousElementSibling.innerText,
+                price: parseInt(this.previousElementSibling.innerText)
+                
             })
         }
         else{
             existProduct.count++;
+
         }
         localStorage.setItem("basket",JSON.stringify(arr));
         BasketCount();
-        console.log(this.previousElementSibling.previousElementSibling.innerText);
-        
+        for (const item of arr) {
+            if (item.id == id) {
+                price += item.price;
+                
+            }
+        }
+        cart.innerHTML = price;
+        localStorage.setItem("TotalPrice", JSON.stringify(price));
     })
 })
 
