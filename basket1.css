@@ -13,6 +13,12 @@
     color: black;
     text-decoration: underline;
 }
+.empty-cart{
+   font-size: 3rem;
+ margin-left: 300px;
+    padding: 150px;
+    
+}
 .iconimg img {
     width: 212px;
     margin-left: 47px;
